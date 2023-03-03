@@ -27,6 +27,10 @@ h4 {
     font-size: 30px;
 }
 
+.joke {
+    min-height: 440px;
+}
+
 h5 {
     font-size: 20px;
 }
@@ -64,8 +68,11 @@ button {
     background-color: skyblue;
     font-size: 20px;
     font-weight: 700;
-    transition: all .4s ease;
     cursor: pointer;
+}
+
+button:active {
+    box-shadow: inset 0px 1px 3px black;
 }
 
 @media (min-width: 768px) {
@@ -82,7 +89,12 @@ button {
     }
 
     button {
+        padding: 20px 30px;
+    }
 
-    padding: 20px 30px;
+    .joke {
+        min-height: 275px;
+        display: flex;
+        align-items: center;
     }
   }

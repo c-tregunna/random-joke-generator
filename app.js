@@ -27,7 +27,7 @@ function generate() {
     let randomQuote = Math.floor(Math.random() * jokes.length);
     quotes.innerHTML =
     `
-    <h4>"${jokes[randomQuote]}"</h4>
+    <h4 class="joke">"${jokes[randomQuote]}"</h4>
     `
 }
 
