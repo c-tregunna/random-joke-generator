@@ -55,7 +55,7 @@ main {
 }
 
 #quote {
-    min-height: 300px;
+    min-height: 440px;
 }
 
 main,
@@ -92,6 +92,10 @@ button:active {
 
     button {
         padding: 20px 30px;
+    }
+
+    #quote {
+        min-height: 300px;
     }
 
     .joke {
