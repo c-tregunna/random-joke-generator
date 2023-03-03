@@ -24,17 +24,18 @@ h5 {
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .joke {
     min-height: 440px;
     display: flex;
     align-items: center;
+    font-size: 30px;
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 main,
@@ -80,14 +81,6 @@ button:active {
 @media (min-width: 768px) {
     h1 {
         font-size: 60px;
-    }
-
-    h4 {
-        font-size: 40px;
-    }
-
-    h5 {
-        font-size: 30px;
     }
 
     button {
